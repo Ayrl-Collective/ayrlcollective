@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #C96654;
+    gap: 30px;
+}
+
+.logo {
+    max-width: 600px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+}
+
+.contact {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 14px;
+}
